@@ -14,7 +14,7 @@ Three user roles: **Patient** (submits health requests), **CHW** (receives/accep
 |---|---|
 | Frontend | React + TypeScript |
 | Styling | Tailwind CSS |
-| Maps | Mapbox GL JS or Leaflet + OpenStreetMap |
+| Maps | Leaflet + OpenStreetMap (100% Free) |
 | Backend | Next.js API Routes (full-stack JS) |
 | Database + Auth | Supabase (Postgres, Realtime, Row-Level Security, Auth) |
 | Real-time | Supabase Realtime |

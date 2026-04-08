@@ -54,7 +54,7 @@ This outlines the minimum viable product (MVP) to be demonstrated in a 2-5 minut
 | :--- | :--- | :--- |
 | **Frontend** | React + TypeScript | Fast dev cycle, reusable UI components, aligns with team knowledge. |
 | **Styling** | Tailwind CSS | Rapid prototyping, responsive out of the box. |
-| **Maps** | Mapbox GL JS or Leaflet + OpenStreetMap | Generous free tiers, supports offline-ish scenarios, better suited for rural/humanitarian use cases than Google Maps. |
+| **Maps** | Leaflet + OpenStreetMap (React-Leaflet) | 100% free open-source tile layer. No API keys or credit cards required. Perfect for a hackathon MVP. |
 | **Backend** | Node.js + Express or Next.js API Routes | Keeps it straightforward using full-stack JavaScript. |
 | **Database** | Supabase (Postgres + Realtime) | Free tier, integrated Auth, row-level security, built-in real-time subscriptions for live updates. |
 | **Real-time** | Supabase Realtime or Socket.io | Allows for live dispatch updates without long-polling. |
