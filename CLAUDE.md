@@ -51,3 +51,7 @@ Detailed requirements live in `spec/`:
 - `spec/02_phase1_mvp.md` — MVP features, product and engineering requirements
 - `spec/03_phase2_enhancement.md` — SMS fallback, AI triage, offline mode, i18n
 - `spec/04_phase3_scale.md` — enterprise multi-tenancy, FHIR, ML, native apps
+
+## Development Workflow & Tooling
+
+- **Supabase MCP:** You must use the Supabase MCP to manage database operations, pull remote schemas, and fetch necessary environment variables. Rely on the MCP to populate `.env` files automatically connecting to the user's Supabase project rather than requesting manual key generation.
